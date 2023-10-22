@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+    
+<head>
+    <meta charset="UTF-8">
+    <title>マンスリーマンションのABC</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1><a href="index.html">
+                <img src="image/logo.png" alt="マンスリーマンションのABC"></a></h1>
+            <nav>
+                <ul class="header_nav">
+                    <li><a href="news.html">お知らせ</li>
+                    <li><a href="plan.html">料金プラン</li>
+                    <li><a href="contract.html">契約の流れ</li>
+                    <li><a href="inquiry.html">お問い合わせ</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h2>お問い合わせ</h2>
+        <table class="inquiry">
+            <tr>
+                <th>種別</th>
+                <td><input type="radio" value="企業">企業
+                    <input type="radio" value="個人">個人
+                </td>
+            </tr>
+            <tr>
+                <th>お名前</th>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <th>連絡方法</th>
+                <td><input type="checkbox" name="contact">電話
+                    <input type="checkbox" name="contact">メール
+                    <input type="checkbox" name="contact">郵送
+
+                </td>
+            </tr>
+            <tr>
+                <th>入居希望日</th>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <th>利用人数</th>
+                <td><select name="people">
+                        <option value="1">１名</option>
+                        <option value="2">２名</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>お問い合わせ内容</th>
+                <td><textarea name="inquiry" rows="4" cols="40">お問い合わせ内容を記入</textarea></td>
+            </tr>
+        </table>
+    </main>
+    <footer>
+        <p><small>Copylight &copy; ABC Monthly Store Co., Ltd. All rights reserved.</small></p>
+    </footer>
+    
+</body>
+</html>
